@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s,a as c}from"./index-CyXEogHv.js";const o={name:"My404"},n=c("img",{src:"https://sitechecker.pro/wp-content/uploads/2019/11/sitechecker-404.png"},null,-1),r=[n];function a(p,_,i,d,l,u){return t(),s("div",null,r)}const h=e(o,[["render",a]]);export{h as default};
