@@ -1,0 +1,11 @@
+{
+    "name": "Your Extension Name",
+    "version": "1.0",
+    "manifest_version": 3,
+    "web_accessible_resources": [
+      {
+        "resources": ["insert.css"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
