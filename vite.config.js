@@ -6,7 +6,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/H5-Page/',
+  // base: '/H5-Page/',
   plugins: [
     vue()
     // VueDevTools(),
