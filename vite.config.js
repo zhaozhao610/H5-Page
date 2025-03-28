@@ -7,7 +7,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    vue(),
+    vue()
     // VueDevTools(),
   ],
   resolve: {
@@ -15,6 +15,12 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
+  build: {
+    outDir: 'docs',
+    assetsDir: 'assets',
+    cssCodeSplit: true,
+    sourcemap: true
+  }
   // css:{
   //   postcss:{
   //     plugins:[
