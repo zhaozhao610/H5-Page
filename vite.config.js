@@ -17,7 +17,7 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: 'docs',
+    outDir: 'dist',
     assetsDir: 'assets',
     cssCodeSplit: true,
     sourcemap: true
